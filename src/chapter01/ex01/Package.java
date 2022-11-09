@@ -13,7 +13,7 @@ public class Package {
 	 */
 	public static void main(String[] args) {
 		
-		System.out.println("패키지 출력");
+		System.out.println("패키지 출력!");
 	}
 
 }
