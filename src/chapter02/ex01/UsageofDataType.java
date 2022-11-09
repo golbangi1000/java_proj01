@@ -14,6 +14,7 @@ public class UsageofDataType {
 			//2. 변수를 선언과 동시에 값을 대입 하는 방법
 			int b = 4;
 			System.out.println(b);
+			System.out.println(b);
 			
 	}
 }
