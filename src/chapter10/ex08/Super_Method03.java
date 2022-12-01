@@ -10,7 +10,9 @@ class A{
 	public A(int i) {
 		System.out.println("A 생성자 2");
 	}
-	
+	public void aa() {
+		System.out.println("faw");
+	}
 	
 }
 
@@ -34,6 +36,10 @@ class C extends A{
 	C(){
 		System.out.println("C 생성자 1");
 	}
+	@Override
+	public void aa() {
+		super.aa();
+	}
 }
 
 
@@ -50,7 +56,8 @@ public class Super_Method03 {
 		
 		System.out.println("========================");
 		C cc = new C();
-		
+		System.out.println("=====================");
+		cc.aa();
 	}
 	
 	

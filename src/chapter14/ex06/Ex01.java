@@ -13,7 +13,7 @@ class A{
 
 
 		try {
-			System.out.println(3/0);
+			System.out.println(3/0); //첫번째에서 발생하면 밑에것들 안함 
 			int[] arr = new int[] {1,2,3};
 			System.out.println(arr[5]);
 			Thread.sleep(1000);
