@@ -1,4 +1,4 @@
-package chapter16;
+package chapter16.ex01;
 
 //각각의 상품을 저장하는 클래스가 별도로 존재함 
 

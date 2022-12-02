@@ -4,8 +4,8 @@ package chapter16.ex04;
 
 /*
  * 제너릭 클래스 : 타입변수가 2개인 베너릭 클래스 <K, V>
- * T 타입
- * K 키
+ * T 타입 Type
+ * K 키 Key
  * V value
  * N Number
  * 

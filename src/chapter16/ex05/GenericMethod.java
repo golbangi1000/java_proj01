@@ -68,6 +68,10 @@ public class GenericMethod {
 		gm.method3("아바타2", "롯데시네마");
 		gm.method3(1231, 1231);
 		gm.<Integer,Double>method3(1234,123.123);
+		gm.<Integer,Integer>method3(123,123);
+		gm.<Integer,Void>method3(123,null);
+		
+		
 		
 		
 		
